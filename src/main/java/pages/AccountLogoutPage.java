@@ -14,7 +14,8 @@ public class AccountLogoutPage extends RootPage{
 		this.driver = driver;
 		PageFactory.initElements(driver,this);
 	}
-	
+
+	//Locators
 	@FindBy(xpath="//span[text()='My Account']")
 	private WebElement myAccountDropMenu;
 	
